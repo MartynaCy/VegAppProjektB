@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Vegapp",
+    "slug": "Vegapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoVegAppQuadrat.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/LogoVegApp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LogoVegAppQuadrat.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.martysmarty.Vegapp"
+    },
+    "web": {
+      "favicon": "./assets/LogoVegAppQuadrat.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c822cb6-6213-41fe-8883-3b6b53cc0762"
+      }
+    }
+  }
+}
